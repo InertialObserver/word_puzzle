@@ -1,8 +1,12 @@
 class String
 
   define_method(:word_puzzle) do
-    pre_puzzle = self.downcase
-    new_words = pre_puzzle.gsub(/a/, "-")
+    initial_phrase = self.downcase
+    first_new_phrase = initial_phrase.gsub(/a/, "-")
+    second_new_phrase = first_new_phrase.gsub(/e/, "-")
+    third_new_phrase = second_new_phrase.gsub(/i/, "-")
+    fourth_new_phrase = third_new_phrase.gsub(/o/, "-")
+    fifth_new_phrase = fourth_new_phrase.gsub(/u/, "-")
 
   end
 end
