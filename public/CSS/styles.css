@@ -1,0 +1,40 @@
+h1 {
+  text-align:center;
+  /*color: #fff;
+  background: #666;*/
+  text-shadow: 0px 1px 1px #000;
+
+}
+
+h2 {
+  text-align:center;
+  /*color: #fff;
+  background: #666;*/
+  text-shadow: 0px 1px 1px #000;
+
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  width:250px;
+
+}
+
+label {
+    font: Droid Bold 24px;
+}
+
+body {
+
+  background: url("../IMG/word.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+    background: rgb(170, 187, 97); /* Fallback */
+    background: rgba(170, 187, 97, 0.5);
+}
