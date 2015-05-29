@@ -22,6 +22,13 @@ Bug reports
 
 If you discover any bugs, feel free to create an issue on GitHub. Please add as much information as possible to help us fixing the possible bug. We also encourage you to help even more by forking and sending us a pull request.
 
+Known Bugs
+
+CSS styling does not show up on Heroku deploy but does locally.
+
+Heroku
+
+https://evening-anchorage-4883.herokuapp.com/
 
 License
 
