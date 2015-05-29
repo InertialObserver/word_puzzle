@@ -6,7 +6,7 @@ class String
     second_new_phrase = first_new_phrase.gsub(/e/, "-")
     third_new_phrase = second_new_phrase.gsub(/i/, "-")
     fourth_new_phrase = third_new_phrase.gsub(/o/, "-")
-    fifth_new_phrase = fourth_new_phrase.gsub(/u/, "-")
+    puzzled = fourth_new_phrase.gsub(/u/, "-").capitalize!()
 
   end
 end
