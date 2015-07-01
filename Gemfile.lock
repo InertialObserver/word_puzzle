@@ -68,3 +68,6 @@ DEPENDENCIES
   sinatra
   sinatra-contrib
   sinatra-reloader
+
+BUNDLED WITH
+   1.10.3
