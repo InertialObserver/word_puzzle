@@ -7,16 +7,17 @@ Date: Started May 29th, 2015
 
 Installation
 
-Retrieve the included Gemfile and Run the following command
+Clone git repo
 
-bundle install
+Run the following command: bundle install
 
 Usage
 
 To use the app run
 
 ruby app.rb
-Navigate in your browser to localhost:4567 and enjoy!!
+
+Navigate in your browser to localhost:4567
 
 Bug reports
 

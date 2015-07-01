@@ -3,7 +3,7 @@ require('./app')
 Capybara.app = Sinatra::Application
 
   describe('Home', {:type => :feature}) do
-    it('responds with successful status') do
+    it('displays expected home page content') do
       visit('/')
       page.should have_content("Puzzle")
     end
