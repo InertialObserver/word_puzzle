@@ -2,14 +2,18 @@ require('capybara/rspec')
 require('./app')
 Capybara.app = Sinatra::Application
 
-describe('the word puzzle path', {:type => :feature}) do
-  it('processes the user entry and returns it with dashes in place of vowels') do
-    visit('/')
-    fill_in('puzzled', :with => 'Just do it')
-    click_button('Puzzle It!')
-    expect(page).to have_content('Your puzzle is J-st d- -t')
-
-
+  describe('Home', {:type => :feature}) do
+    it('responds with successful status') do
+      visit('/')
+      page.should have_content("Puzzle")
+    end
   end
 
+    describe('word_puzzle', {:type => :feature}) do
+  it('returns the user entry with vowels replaced with dashes') do
+    visit('/')
+    fill_in('puzzled', :with => 'dog')
+    click_button('Puzzle it!')
+    expect(page).to have_content('D-g')
+  end
 end
