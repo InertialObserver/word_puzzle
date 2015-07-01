@@ -13,9 +13,7 @@ Run the following command: bundle install
 
 Usage
 
-To use the app run
-
-ruby app.rb
+To use the app run: ruby app.rb
 
 Navigate in your browser to localhost:4567
 
@@ -25,11 +23,11 @@ If you discover any bugs, feel free to create an issue on GitHub. Please add as 
 
 Known Bugs
 
-CSS styling does not show up on Heroku deploy but does locally.
+CSS styling does not show up on Heroku deploy but does locally. This is an issue that has a solution via Rails or Sass, neither of which are included in this lesson.
 
 Heroku
 
-https://evening-anchorage-4883.herokuapp.com/
+https://young-eyrie-6495.herokuapp.com/
 
 License
 
