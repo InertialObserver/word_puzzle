@@ -7,13 +7,19 @@ Date: Started May 29th, 2015
 
 Installation
 
-Clone git repo
+<b>Clone git repo</b>
+Run: git clone https://github.com/InertialObserver/word_puzzle.git
 
-Run the following command: bundle install
+<b>Navigate to the file</b>
+Run: cd word_puzzle
+
+<b>Bundle</b>
+Run: bundle install
 
 Usage
 
-To use the app run: ruby app.rb
+<b>To use the app</b>
+Run: ruby app.rb
 
 Navigate in your browser to localhost:4567
 
