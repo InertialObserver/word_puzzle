@@ -1,11 +1,11 @@
-Word Puzzle
+<h1>Word Puzzle</h1>
 Contributor(s):
 
 Jessi Iler (https://github.com/InertialObserver)
 
 Date: Started May 29th, 2015
 
-Installation
+<h2>Installation</h2>
 
 <b>Clone git repo</b>
 
@@ -19,7 +19,7 @@ Run: cd word_puzzle
 
 Run: bundle install
 
-Usage
+<h2>Usage</h2>
 
 <b>To use the app</b>
 
