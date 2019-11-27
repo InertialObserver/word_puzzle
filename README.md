@@ -8,12 +8,12 @@ Date: Started May 29th, 2015
 <h2>Installation: Command Line, MacOS</h2>
 
 <b>Clone git repo</b>
-
-``` git clone https://github.com/InertialObserver/word_puzzle.git
+```
+git clone https://github.com/InertialObserver/word_puzzle.git
 ```
 <b>Navigate to the file</b>
-
-``` cd word_puzzle
+```
+cd word_puzzle
 ```
 <b>Bundle</b>
 ```
@@ -21,13 +21,14 @@ bundle
 ```
 
 <h2>Run the app on your system locally</h2>
+
 ```
 ruby app.rb
 ```
 
 Navigate in your browser to localhost:4567
 
-Bug reports
+<h2>Bug reports</h2>
 
 If you discover any bugs, feel free to create an issue on GitHub. Please add as much information as possible to help us fixing the possible bug. We also encourage you to help even more by forking and sending us a pull request.
 
