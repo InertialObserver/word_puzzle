@@ -5,25 +5,25 @@ Jessi Iler (https://github.com/InertialObserver)
 
 Date: Started May 29th, 2015
 
-<h2>Installation</h2>
+<h2>Installation: Command Line, MacOS</h2>
 
 <b>Clone git repo</b>
 
-Run: git clone https://github.com/InertialObserver/word_puzzle.git
-
+``` git clone https://github.com/InertialObserver/word_puzzle.git
+```
 <b>Navigate to the file</b>
 
-Run: cd word_puzzle
-
+``` cd word_puzzle
+```
 <b>Bundle</b>
+```
+bundle
+```
 
-Run: bundle install
-
-<h2>Usage</h2>
-
-<b>To use the app</b>
-
-Run: ruby app.rb
+<h2>Run the app on your system locally</h2>
+```
+ruby app.rb
+```
 
 Navigate in your browser to localhost:4567
 
