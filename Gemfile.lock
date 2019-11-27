@@ -72,6 +72,7 @@ DEPENDENCIES
   capybara
   nokogiri (~> 1.6, >= 1.6.7)
   pry
+  rack (>= 1.6.11)
   rack-protection (>= 1.5.5)
   rspec
   sinatra
